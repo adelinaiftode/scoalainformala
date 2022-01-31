@@ -172,16 +172,16 @@ while True:
     a8 = '_'
     a9 = '_'
 
-Board = {a1: ' ', a2: ' ', a3: ' ',
-            a4: ' ', a5: ' ', a6: ' ',
-            a7: ' ', a8: ' ', a9: ' '}
-def printBoard(board):
-    print(board['1'] + '  |'+board['2']+'  |'+board['3'])
-    print('---|---|---')
-    print(board['4'] + '  |'+board['5']+'  |' + board['6'])
-    print('---|---|---')
-    print(board['7'] + '  |'+board['8']+'  |' + board['9'])
-printBoard(Board)
+#Board = {a1: ' ', a2: ' ', a3: ' ',
+#            a4: ' ', a5: ' ', a6: ' ',
+#            a7: ' ', a8: ' ', a9: ' '}
+#def printBoard(board):
+#    print(board['1'] + '  |'+board['2']+'  |'+board['3'])
+#    print('---|---|---')
+#    print(board['4'] + '  |'+board['5']+'  |' + board['6'])
+#    print('---|---|---')
+#    print(board['7'] + '  |'+board['8']+'  |' + board['9'])
+#printBoard(Board)
 
 #pozitii_jucator = {'x':[], '0':[]}
 
