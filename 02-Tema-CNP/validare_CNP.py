@@ -31,7 +31,6 @@ print(CNP_nr)
 #     return sex
 
 
-
 def AA(CNP_nr):
     secole = {
         '1': 1900, '2': 1900, '3': 1800, '4': 1800, '5': 2000, '6': 2000,
@@ -56,7 +55,7 @@ def JJ(CNP_nr):
                  '31', '32', '33', '34', '35', '36', '37', '38', '39', '40',
                  '41', '42', '43', '44', '45', '46', '51', '52'
     }
-    while CNP_nr[8:9] in cod_judet:
+    while CNP_nr[7:9] in cod_judet:
         return True #Judet valid
     else:
         return False #Judet invalid
@@ -67,7 +66,7 @@ def NNN(CNP_nr):
     n1 = {'0', '1', '2', '3', '4', '5', '6', '7', '8', '9'}
     n2 = {'0', '1', '2', '3', '4', '5', '6', '7', '8', '9'}
     n3 = {'1', '2', '3', '4', '5', '6', '7', '8', '9'}
-    while CNP_nr[10] in n1 and CNP_nr[11] in n2 and CNP_nr[12] in n3:
+    while CNP_nr[9] in n1 and CNP_nr[10] in n2 and CNP_nr[11] in n3:
         return True #NNN valid
     else:
         return False #NNN invalid
