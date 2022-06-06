@@ -1,0 +1,26 @@
+{% extends 'base.html' %}
+{% block content %}
+ <h1>Login</h1>
+<form method="POST">
+    {% csrf_token %}
+
+    <!-- Username -->
+    <div class="mb-3">
+        <label for="username" class="form-label">Username</label>
+        <input type="text" class="form-control" id="username" name="username">
+    </div>
+
+    <!-- Password -->
+    <div class="mb-3">
+        <label for="password" class="form-label">Password</label>
+        <input type="password" class="form-control" id="password" name="password">
+    </div>
+
+    <!-- Submit -->
+    <button type="submit" class="btn btn-primary">Login</button>
+
+    <!-- Errors -->
+    <span style="color: red;">{{ form.non_field_errors }}</span>
+</form>
+
+{% endblock %}
