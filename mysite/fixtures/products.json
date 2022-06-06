@@ -1,0 +1,50 @@
+[
+  {
+    "title": "Senzor1",
+    "price": "10",
+    "category": "senzor de nivel",
+    "image": "senzor1.jpg"
+  },
+  {
+    "title": "Senzor2",
+    "price": "8",
+    "category": "senzor de nivel",
+    "image": "senzor2.jpg"
+  },
+  {
+    "title": "Senzor3",
+    "price": "20",
+    "category": "senzor de nivel",
+    "image": "senzor3.jpg"
+  },
+  {
+    "title": "Senzor4",
+    "price": "30",
+    "category": "senzor de presiune",
+    "image": "senzor4.jpg"
+  },
+  {
+    "title": "Senzor5",
+    "price": "80",
+    "category": "senzor de presiune",
+    "image": "senzor5.jpg"
+  },
+  {
+    "title": "Senzor6",
+    "price": "100",
+    "category": "senzor de debit",
+    "image": "senzor6.jpg"
+  },
+  {
+    "title": "Senzor7",
+    "price": "200",
+    "category": "senzor de debit",
+    "image": "senzor7.jpg"
+  },
+  {
+    "title": "Senzor8",
+    "price": "400",
+    "category": "senzor de debit",
+    "image": "senzor8.jpg"
+  }
+]
